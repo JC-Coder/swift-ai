@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    background: url('./assets/hero-bg-main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.195);
+}
+
+.title {
+    font-size: 6rem;
+}
+
+@media screen and  (max-width: 700px) {
+    .title{
+        font-size: 3rem !important;
+    }
+
+    .about {
+        font-size: 1.2rem !important;
+    }
+}
